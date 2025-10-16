@@ -1,0 +1,282 @@
+﻿<!-- Carrusel de Imágenes -->
+<head>
+    <link rel="stylesheet" href="mycss.css" />
+    <title>Carousel/Slideshow</title>
+</head>
+
+<body>
+    <!-- Header con Logo -->
+    <div class="header-top">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="img/LogoMercaThalianNoBackground.png" style="width: 90%; height: 90%; object-fit: contain;" />
+                </div>
+                <div class="logo-text">
+                    <h1>MercaThalIan</h1>
+                    <p>¡Todo con las tres B!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Generado de https://codepen.io/dalmacs/pen/zPgrRw -->
+    <div class="container">
+        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores/puntos/botones -->
+            <ol class="carousel-indicators">
+                <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#theCarousel" data-slide-to="1"></li>
+                <li data-target="#theCarousel" data-slide-to="2"></li>
+                <li data-target="#theCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/carr01.png"
+                         alt="Ilustracion">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/carr02.png" alt="fotografia" width="600" height="424">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/carr03.png" alt="pintura" width="600" height="424">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/carr04.png" width="600" height="424">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+
+                <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">anterior</span>
+                </a>
+                <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">siguiente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#tienda" onclick="showSection('tienda')">Nuestra Tienda On-line</a></li>
+            <li><a href="#servicios" onclick="showSection('servicios')">Servicios</a></li>
+            <li><a href="#contacto" onclick="showSection('contacto')">Contáctenos</a></li>
+            <li><a href="#formulario" onclick="showSection('formulario')">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container">
+        <!-- Sección: Nuestra Tienda -->
+        <section id="tienda" class="active">
+            <h2><strong>Nuestra Tienda On-line</strong></h2>
+            <p style="font-size: 18px; margin-bottom: 30px; color: #555;">
+                Bienvenido a <strong>MercaThalIan</strong>, tu tienda de confianza para adquirir los mejores alimentos.
+                Nos dedicamos a ofrecer productos frescos y de la más alta calidad, desde el campo directamente a tu hogar.
+                Con años de experiencia en el sector, nuestro compromiso es brindar un servicio excepcional y precios competitivos.
+            </p>
+
+            <h3 style="color: #2c3e50; margin: 40px 0 20px;">Nuestro Equipo</h3>
+            <div class="team">
+                <div class="team-member">
+                    <div class="team-member-icon"><img src="img/Principal.png" style="width: 100%" /></div>
+                    <h3>Bryan Stiven Gallego Betancur</h3>
+                    <p><strong>Gerente General</strong></p>
+                    <p>Liderando con visión y compromiso para ofrecerte el mejor servicio</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-member-icon">👩‍💼</div>
+                    <h3>María González</h3>
+                    <p><strong>Jefa de Compras</strong></p>
+                    <p>Seleccionando los productos más frescos y de mejor calidad</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-member-icon">👨‍🍳</div>
+                    <h3>Juan Martínez</h3>
+                    <p><strong>Supervisor de Calidad</strong></p>
+                    <p>Garantizando la frescura y calidad de cada producto</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-member-icon">👩‍💻</div>
+                    <h3>Ana López</h3>
+                    <p><strong>Atención al Cliente</strong></p>
+                    <p>Siempre disponible para atender tus necesidades</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Servicios -->
+        <section id="servicios">
+            <h2><strong>Nuestros Servicios</strong></h2>
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-icon">🚚</div>
+                    <h3>Domicilios</h3>
+                    <p>
+                        Realizamos entregas rápidas y seguras en toda la ciudad. Tu pedido llegará fresco y en perfecto estado.
+                        Horarios de entrega flexibles adaptados a tu conveniencia.
+                    </p>
+                    <ul style="text-align: left; margin-top: 15px; color: #555;">
+                        <li>Entrega en menos de 2 horas</li>
+                        <li>Seguimiento en tiempo real</li>
+                        <li>Empaque seguro y refrigerado</li>
+                        <li>Domicilio gratis en compras mayores a $50.000</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📞</div>
+                    <h3>Atención al Cliente</h3>
+                    <p>
+                        Nuestro equipo está disponible para ayudarte con cualquier duda o consulta.
+                        Te ofrecemos asesoría personalizada para elegir los mejores productos.
+                    </p>
+                    <ul style="text-align: left; margin-top: 15px; color: #555;">
+                        <li>Atención 24/7</li>
+                        <li>Asesoría personalizada</li>
+                        <li>Soporte por múltiples canales</li>
+                        <li>Resolución rápida de consultas</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📝</div>
+                    <h3>PQRS</h3>
+                    <p>
+                        Sistema de Peticiones, Quejas, Reclamos y Sugerencias. Tu opinión es muy importante para nosotros
+                        y nos ayuda a mejorar continuamente.
+                    </p>
+                    <ul style="text-align: left; margin-top: 15px; color: #555;">
+                        <li>Respuesta en máximo 48 horas</li>
+                        <li>Seguimiento de tu solicitud</li>
+                        <li>Atención personalizada</li>
+                        <li>Compromiso con la mejora continua</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Contacto -->
+        <section id="contacto">
+            <h2><strong>Contáctenos</strong></h2>
+            <p style="font-size: 18px; margin-bottom: 30px; color: #555;">
+                Estamos aquí para atenderte. Contáctanos a través de cualquiera de nuestros canales de comunicación.
+            </p>
+
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/573001234567" target="_blank">+57 300 123 4567</a></p>
+                    <p style="color: #7f8c8d; margin-top: 10px;">Escríbenos en cualquier momento</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Teléfono</h3>
+                    <p><a href="tel:+573001234567">+57 300 123 4567</a></p>
+                    <p style="color: #7f8c8d; margin-top: 10px;">Lunes a Domingo 7am - 9pm</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Dirección</h3>
+                    <p>Parque Principal de <br>El Carmen de Viboral, Antioquia</p>
+                    <p style="color: #7f8c8d; margin-top: 10px;">Visítanos en nuestro local</p>
+                </div>
+            </div>
+
+            <h3 style="color: #2c3e50; margin: 40px 0 20px;">Encuéntranos en el Mapa</h3>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.646443684646!2d-75.3353509!3d6.0832321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46a2795ff4de1f%3A0xda44a7599fa6ed81!2sParque%20Principal%20El%20Carmen%20de%20Viboral!5e0!3m2!1ses-419!2sco!4v1706870000000!5m2!1ses-419!2sco"
+                        style="border:0; width:100%; height:100%;"
+                        allowfullscreen=""
+                        loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Sección: Formulario -->
+        <section id="formulario">
+            <h2><strong>Formulario</strong></h2>
+            <p style="font-size: 18px; margin-bottom: 30px; color: #555;">
+                Complete el siguiente formulario con toda la información que se pide.
+            </p>
+            
+            <div class="quote-form">
+                <form action="~/js/myjs.js" method="post" id="quoteForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" name="nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="apodo">Apodo *</label>
+                        <input type="text" name="apodo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="colorCabello">Color de Cabello *</label>
+                        <input type="text" name="colorCabello" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="colorOjos">Color de Ojos *</label>
+                        <input type="text" name="colorOjos" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="edad">Edad *</label>
+                        <input type="text" name="edad" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="hobby">Hobby (sólo uno) *</label>
+                        <select name="hobby_categoria">
+                            <option value="">Seleccione...</option>
+                            <option value="leer">Leer</option>
+                            <option value="escribir">Escribir</option>
+                            <option value="cocinar">Cocinar</option>
+                            <option value="pintar">Pintar</option>
+                            <option value="instrumentos">Tocar instrumentos</option>
+                            <option value="deporte-futbol">Hacer deporte - Fútbol</option>
+                            <option value="deporte-yoga">Hacer deporte - Yoga</option>
+                            <option value="deporte-ciclismo">Hacer deporte - Ciclismo</option>
+                            <option value="viajar">Viajar</option>
+                            <option value="fotografia">Fotografía</option>
+                            <option value="jardineria">Jardinería</option>
+                            <option value="videojuegos">Videojuegos</option>
+                            <option value="manualidades-origami">Manualidades - Origami</option>
+                            <option value="manualidades-ceramica">Manualidades - Cerámica</option>
+                            <option value="manualidades-bordado">Manualidades - Bordado</option>
+                            <option value="aire-senderismo">Actividades al aire libre - Senderismo</option>
+                            <option value="aire-camping">Actividades al aire libre - Camping</option>
+                        </select>
+                    </div>
+                </form>
+
+                <button class="btn btn-primary" onclick="irACuento()">Continuar</button>
+                <script src="~/js/myjs.js"></script>
+
+
+            </div>
+        </section>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 MercaThalIan. Todos los derechos reservados.</p>
+    <p>Tu tienda de alimentos online de confianza</p>
+</footer>

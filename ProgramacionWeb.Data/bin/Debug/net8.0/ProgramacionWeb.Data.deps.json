@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProgramacionWeb.Data/1.0.0": {
+        "dependencies": {
+          "ProgramacionWeb.Model": "1.0.0"
+        },
+        "runtime": {
+          "ProgramacionWeb.Data.dll": {}
+        }
+      },
+      "ProgramacionWeb.Model/1.0.0": {
+        "runtime": {
+          "ProgramacionWeb.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgramacionWeb.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProgramacionWeb.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

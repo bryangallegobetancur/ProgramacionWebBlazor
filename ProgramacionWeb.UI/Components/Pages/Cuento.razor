@@ -1,0 +1,69 @@
+﻿@page "/cuento"
+@inject NavigationManager NavManager
+
+<h1 class="display-4 text-center mt-4">Tu Cuento</h1>
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h2>Había una vez...</h2>
+        <p>@cuentoTexto</p>
+    </div>
+</div>
+
+@code {
+    private string nombre = "";
+    private string apodo = "";
+    private string colorCabello = "";
+    private string colorOjos = "";
+    private string edad = "";
+    private string hobby = "";
+    private string cuentoTexto = "";
+
+    protected override void OnInitialized()
+    {
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        var query = System.Web.HttpUtility.ParseQueryString(uri.Query);
+
+        nombre = query["nombre"] ?? "Desconocido";
+        apodo = query["apodo"] ?? "Sin apodo";
+        colorCabello = query["colorCabello"] ?? "indefinido";
+        colorOjos = query["colorOjos"] ?? "indefinidos";
+        edad = query["edad"] ?? "una edad misteriosa";
+        hobby = query["hobby"] ?? "explorar lo desconocido";
+
+        cuentoTexto = GenerarCuento();
+    }
+
+    private string GenerarCuento()
+    {
+        return $"...un personaje llamado {nombre}, conocido por sus amigos como \"{apodo}\". " +
+               $"Tenía el cabello de color {colorCabello} y unos ojos {colorOjos} que brillaban con curiosidad. " +
+               $"A la edad de {edad}, descubrió que su pasión era {TraducirHobby(hobby)}. " +
+               $"Desde entonces, cada día era una nueva aventura, llena de descubrimientos, risas y aprendizajes.";
+    }
+
+    private string TraducirHobby(string hobby)
+    {
+        return hobby switch
+        {
+            "leer" => "sumergirse en mundos literarios",
+            "escribir" => "crear historias que tocaban corazones",
+            "cocinar" => "transformar ingredientes en magia",
+            "pintar" => "dar color a sus emociones",
+            "instrumentos" => "hacer música que hablaba sin palabras",
+            "deporte-futbol" => "correr tras sueños en una cancha",
+            "deporte-yoga" => "encontrar paz en cada respiración",
+            "deporte-ciclismo" => "recorrer caminos con libertad",
+            "viajar" => "descubrir culturas y paisajes",
+            "fotografia" => "capturar instantes eternos",
+            "jardineria" => "cultivar vida con sus manos",
+            "videojuegos" => "vivir aventuras digitales",
+            "manualidades-origami" => "doblar papel en arte",
+            "manualidades-ceramica" => "moldear historias en barro",
+            "manualidades-bordado" => "tejer emociones en hilo",
+            "aire-senderismo" => "caminar entre montañas y sueños",
+            "aire-camping" => "dormir bajo estrellas y cuentos",
+            _ => "explorar lo desconocido"
+        };
+    }
+}

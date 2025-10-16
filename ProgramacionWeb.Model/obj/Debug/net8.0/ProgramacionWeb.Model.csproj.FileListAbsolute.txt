@@ -1,0 +1,11 @@
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\bin\Debug\net8.0\ProgramacionWeb.Model.deps.json
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\bin\Debug\net8.0\ProgramacionWeb.Model.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\bin\Debug\net8.0\ProgramacionWeb.Model.pdb
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\ProgramacionWeb.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\ProgramacionWeb.Model.AssemblyInfoInputs.cache
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\ProgramacionWeb.Model.AssemblyInfo.cs
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\ProgramacionWeb.Model.csproj.CoreCompileInputs.cache
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\ProgramacionWeb.Model.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\refint\ProgramacionWeb.Model.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\ProgramacionWeb.Model.pdb
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Model\obj\Debug\net8.0\ref\ProgramacionWeb.Model.dll

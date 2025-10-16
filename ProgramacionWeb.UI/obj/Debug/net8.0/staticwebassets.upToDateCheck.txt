@@ -1,0 +1,12 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\css\mycss.css
+wwwroot\favicon.png
+wwwroot\img\carr01.png
+wwwroot\img\carr02.png
+wwwroot\img\carr03.png
+wwwroot\img\carr04.png
+wwwroot\img\LogoMercaThalianNoBackground.png
+wwwroot\img\Principal.png
+wwwroot\js\myjs.js

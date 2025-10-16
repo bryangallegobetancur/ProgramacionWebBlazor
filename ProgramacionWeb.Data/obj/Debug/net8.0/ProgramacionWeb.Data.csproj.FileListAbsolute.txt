@@ -1,0 +1,15 @@
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\bin\Debug\net8.0\ProgramacionWeb.Data.deps.json
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\bin\Debug\net8.0\ProgramacionWeb.Data.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\bin\Debug\net8.0\ProgramacionWeb.Data.pdb
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ProgramacionWeb.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ProgramacionWeb.Data.AssemblyInfoInputs.cache
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ProgramacionWeb.Data.AssemblyInfo.cs
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ProgramacionWeb.Data.csproj.CoreCompileInputs.cache
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ProgramacionWeb.Data.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\refint\ProgramacionWeb.Data.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ProgramacionWeb.Data.pdb
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ref\ProgramacionWeb.Data.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\bin\Debug\net8.0\ProgramacionWeb.Model.dll
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\bin\Debug\net8.0\ProgramacionWeb.Model.pdb
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\ProgramacionWeb.Data.csproj.AssemblyReference.cache
+C:\Users\bryan\source\repos\ProgramacionWeb\ProgramacionWeb.Data\obj\Debug\net8.0\Programa.A9232E8A.Up2Date
