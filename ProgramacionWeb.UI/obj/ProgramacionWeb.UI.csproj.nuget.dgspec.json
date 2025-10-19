@@ -4,14 +4,14 @@
     "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\ProgramacionWeb.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.Model\\ProgramacionWeb.Model.csproj": {
+    "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\ProgramacionWeb.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.Model\\ProgramacionWeb.Model.csproj",
-        "projectName": "ProgramacionWeb.Model",
-        "projectPath": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.Model\\ProgramacionWeb.Model.csproj",
+        "projectUniqueName": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\ProgramacionWeb.UI.csproj",
+        "projectName": "ProgramacionWeb.UI",
+        "projectPath": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\ProgramacionWeb.UI.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.Model\\obj\\",
+        "outputPath": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,75 +49,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.14, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\ProgramacionWeb.UI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\ProgramacionWeb.UI.csproj",
-        "projectName": "ProgramacionWeb.UI",
-        "projectPath": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\ProgramacionWeb.UI.csproj",
-        "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.UI\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.Model\\ProgramacionWeb.Model.csproj": {
-                "projectPath": "C:\\Users\\bryan\\source\\repos\\ProgramacionWeb\\ProgramacionWeb.Model\\ProgramacionWeb.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
